@@ -9,6 +9,8 @@
  */
 package org.openmrs.module.facilityreporting.api.dao;
 
+import org.junit.Ignore;
+import org.junit.Test;
 import org.openmrs.test.BaseModuleContextSensitiveTest;
 
 /**
@@ -19,4 +21,9 @@ import org.openmrs.test.BaseModuleContextSensitiveTest;
  */
 public class FacilityreportingDaoTest extends BaseModuleContextSensitiveTest {
 	
+	@Test
+	@Ignore("Unignore if you want to make the DAO persistable")
+	public void daoTest() {
+		//run test
+	}
 }
